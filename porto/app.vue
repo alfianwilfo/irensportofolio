@@ -11,8 +11,8 @@ export default {
       <Home />
     </div>
     <div class="row-start-2">
-      <div class="grid grid-cols-8">
-        <div class="text-[100px] col-start-2 col-end-7">
+      <div class="grid grid-cols-12">
+        <div class="text-[100px] text-white col-start-2 col-end-7">
           Romiwita <br />
           Irene Klarita
         </div>
