@@ -18,5 +18,11 @@ export default {
         </div>
       </div>
     </div>
+    <div class="text-white grid grid-cols-12 text-right px-[10px]">
+      <div class="col-start-9 col-span-4">
+        A woman who enjoy learning, loves challenges and want to keep creating a
+        great things.
+      </div>
+    </div>
   </div>
 </template>
