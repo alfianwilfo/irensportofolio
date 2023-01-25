@@ -18,7 +18,7 @@ export default {
       </div>
       <div class="row-start-2">
         <div class="grid grid-cols-12">
-          <div class="text-[130px] text-white col-start-2 col-end-8 poirto">
+          <div class="text-[150px] text-white col-start-2 col-end-9 poirto">
             Romiwita <br />
             Irene Klarita
           </div>
