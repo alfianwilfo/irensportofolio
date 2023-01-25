@@ -28,9 +28,9 @@ export default {
       <div
         class="text-white grid grid-cols-12 row-start-6 text-[20px] text-right px-[10px]"
       >
-        <div class="col-start-9 col-span-4">
-          A woman who enjoy learning, loves challenges and want to keep creating
-          a great things.
+        <div class="col-start-9 col-span-4 jakarta">
+          A woman who enjoy learning, loves challenges <br />
+          and want to keep creating a great things.
         </div>
       </div>
     </div>
@@ -39,7 +39,11 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap");
 .poirto {
   font-family: "Poiret One", cursive;
+}
+.jakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 </style>
