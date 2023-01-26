@@ -4,7 +4,11 @@ export default {
 };
 </script>
 <template>
+  <!-- <div> -->
+
   <NuxtPage />
+
+  <!-- </div> -->
 </template>
 
 <style>
