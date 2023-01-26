@@ -44,16 +44,23 @@ export default {
             product. <br />
             Technology for Humanity...
           </div>
-          <div>
+          <div class="flex flex-row gap-x-[30px]">
             <div class="flex flex-row">
               <div class="grid content-center">
                 <div>
                   <nuxt-icon name="point" filled />
                 </div>
               </div>
-              <div>Serang</div>
+              <div>Serang, Indonesia</div>
             </div>
-            <div></div>
+            <div class="flex flex-row">
+              <div class="grid content-center">
+                <div>
+                  <nuxt-icon name="email" filled />
+                </div>
+              </div>
+              <div class="ml-1">irennesiregar13@gmail.com</div>
+            </div>
             <div></div>
           </div>
         </div>
