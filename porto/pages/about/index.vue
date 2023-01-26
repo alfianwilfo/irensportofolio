@@ -36,6 +36,7 @@ export default {
           <div>
             I am a Digital Enthusiast based in Banten, Indonesia. <br />
             A Forever learner, Full time IT Project Manager and Part time UI-UX.
+            <div class="mt-[10px] bg-black w-[260px] h-[7px]"></div>
           </div>
           <div>
             I am a Professional IT Project Manager with experience in leading
