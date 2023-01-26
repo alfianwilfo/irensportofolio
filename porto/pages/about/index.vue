@@ -88,7 +88,9 @@ export default {
         <div class="flex justify-center">
           <div>
             <!-- <nuxt-icon name="right" filled /> -->
-            <right class="w-7 h-10" @click="next" />
+            <button @click="next">
+              <right class="w-7 h-10" />
+            </button>
           </div>
         </div>
       </div>
