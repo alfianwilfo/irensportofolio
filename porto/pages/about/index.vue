@@ -45,7 +45,14 @@ export default {
             Technology for Humanity...
           </div>
           <div>
-            <div><nuxt-img src="/point.svg" /> Serang</div>
+            <div class="flex flex-row">
+              <div class="grid content-center">
+                <div>
+                  <nuxt-icon name="point" filled />
+                </div>
+              </div>
+              <div>Serang</div>
+            </div>
             <div></div>
             <div></div>
           </div>
