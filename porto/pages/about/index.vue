@@ -44,7 +44,7 @@ export default {
             product. <br />
             Technology for Humanity...
           </div>
-          <div class="flex flex-row gap-x-[30px]">
+          <div class="flex flex-row gap-x-[30px] text-[16px]">
             <div class="flex flex-row">
               <div class="grid content-center">
                 <div>
@@ -61,8 +61,20 @@ export default {
               </div>
               <div class="ml-1">irennesiregar13@gmail.com</div>
             </div>
-            <div></div>
+            <div class="flex flex-row">
+              <div class="grid content-center">
+                <div>
+                  <nuxt-icon name="linkedind" filled />
+                </div>
+              </div>
+              <div>linkedin.com/in/romiwitaireneklarita</div>
+            </div>
           </div>
+        </div>
+      </div>
+      <div class="grid content-center">
+        <div class="w-[40px]">
+          <nuxt-icon name="right" filled />
         </div>
       </div>
     </div>
