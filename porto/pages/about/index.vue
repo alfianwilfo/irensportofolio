@@ -44,7 +44,11 @@ export default {
             product. <br />
             Technology for Humanity...
           </div>
-          <div>serang</div>
+          <div>
+            <div><nuxt-img src="/point.svg" /> Serang</div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
