@@ -1,12 +1,18 @@
 <script>
 import Navbar from "~~/components/Navbar.vue";
+import right from "@/components/global/right.svg";
 export default {
   name: "about",
-  components: { Navbar },
+  components: { Navbar, right },
   data() {
     return {
       from: "about",
     };
+  },
+  methods: {
+    next() {
+      this.$router.push({ name: "about-more" });
+    },
   },
 };
 </script>
@@ -18,7 +24,7 @@ export default {
     </div>
     <div class="grid grid-cols-12 row-start-3">
       <div class="col-start-2 col-end-6">
-        <div class="text-[100px] poirto">
+        <div class="text-[110px] poirto">
           Hi,<br />
           I'm Irene.
         </div>
@@ -67,14 +73,23 @@ export default {
                   <nuxt-icon name="linkedind" filled />
                 </div>
               </div>
-              <div>linkedin.com/in/romiwitaireneklarita</div>
+              <div class="ml-1">
+                <a
+                  class="hover:underline"
+                  href="linkedin.com/in/romiwitaireneklarita"
+                  >linkedin.com/in/romiwitaireneklarita</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="grid content-center">
-        <div class="w-[40px]">
-          <nuxt-icon name="right" filled />
+        <div class="flex justify-center">
+          <div>
+            <!-- <nuxt-icon name="right" filled /> -->
+            <right class="w-7 h-10" @click="next" />
+          </div>
         </div>
       </div>
     </div>

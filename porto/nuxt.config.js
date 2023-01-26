@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "nuxt-icons"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-icons", "nuxt-icon", "nuxt-svgo"],
   head: {
     link: [
       {
