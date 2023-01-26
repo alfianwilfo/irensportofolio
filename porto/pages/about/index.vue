@@ -44,7 +44,18 @@ export default {
             product. <br />
             Technology for Humanity...
           </div>
-          <div>serang</div>
+          <div>
+            <div class="flex flex-row">
+              <div class="grid content-center">
+                <div>
+                  <nuxt-icon name="point" filled />
+                </div>
+              </div>
+              <div>Serang</div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
