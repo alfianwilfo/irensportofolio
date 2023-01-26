@@ -7,6 +7,11 @@ export default {
   data() {
     return { from: "about" };
   },
+  methods: {
+    before() {
+      this.$router.push({ name: "about" });
+    },
+  },
 };
 </script>
 <template>
@@ -19,14 +24,16 @@ export default {
         <div class="flex justify-center">
           <div>
             <!-- <nuxt-icon name="right" filled /> -->
-            <button @click="next">
+            <button @click="before">
               <left class="w-7 h-10" />
             </button>
           </div>
         </div>
       </div>
-      <div class="col-start-2 col-span-4 font-medium">
-        <div class="ml-[70px] poirto text-[100px] leading-[130px]">
+      <div class="col-start-2 col-span-3 font-medium">
+        <div
+          class="ml-[70px] poirto text-[100px] leading-[130px] border-b-4 border-black"
+        >
           Fun <br />
           Fact <br />
           About <br />
@@ -34,7 +41,7 @@ export default {
         </div>
         <div></div>
       </div>
-      <div class="col-span-6 grid content-center text-[21px]">
+      <div class="col-start-6 col-span-6 grid content-center text-[21px]">
         <div class="flex flex-col jakarta gap-[30px]">
           <div>I’m just a human..</div>
           <div>
