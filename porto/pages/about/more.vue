@@ -34,22 +34,24 @@ export default {
         </div>
         <div></div>
       </div>
-      <div class="col-span-6 flex items-center flex-col">
-        <div>I’m just a human..</div>
-        <div>
-          Born in Jambi, 30 November 1997 and currently based in Banten,
-          Indonesia. Alumna of Universitas Advent Indonesia with majoring in
-          Informatics Engineering, Batch 2020.
-        </div>
-        <div>
-          I am a social butterfly, easy going personality and adaptable.
-        </div>
-        <div>
-          a Basketballers, PUBGM player, a KPop fans, a beach lover, a fashion
-          connoisseur and Movie addict.
-        </div>
-        <div>
-          Dream to spend the rest of my life in the village as a farmer ..
+      <div class="col-span-6 grid content-center text-[21px]">
+        <div class="flex flex-col jakarta gap-[30px]">
+          <div>I’m just a human..</div>
+          <div>
+            Born in Jambi, 30 November 1997 and currently based in Banten,
+            Indonesia. Alumna of Universitas Advent Indonesia with majoring in
+            Informatics Engineering, Batch 2020.
+          </div>
+          <div>
+            I am a social butterfly, easy going personality and adaptable.
+          </div>
+          <div>
+            a Basketballers, PUBGM player, a KPop fans, a beach lover, a fashion
+            connoisseur and Movie addict.
+          </div>
+          <div>
+            Dream to spend the rest of my life in the village as a farmer ..
+          </div>
         </div>
       </div>
     </div>
