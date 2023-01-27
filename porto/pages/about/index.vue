@@ -22,7 +22,7 @@ export default {
     <div>
       <Navbar :from="from" />
     </div>
-    <div class="grid grid-cols-12 row-start-3">
+    <div class="grid grid-cols-12 row-start-2 mt-[50px]">
       <div class="col-start-2 col-end-6">
         <div class="text-[110px] poirto">
           Hi,<br />
