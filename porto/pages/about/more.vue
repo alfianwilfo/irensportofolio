@@ -19,7 +19,7 @@ export default {
     <div>
       <Navbar :from="from" />
     </div>
-    <div class="grid grid-cols-12 row-start-2 row-span-4">
+    <div class="grid grid-cols-12 row-start-2 row-span-2">
       <div class="grid content-center">
         <div class="flex justify-center">
           <div>
