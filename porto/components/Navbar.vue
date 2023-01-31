@@ -1,5 +1,6 @@
 <script>
 import dwcklt from "@/assets/icons/dwcklt.svg";
+import dwpt from "@/assets/icons/dwpt.svg";
 export default {
   name: "Navbar",
   props: ["from"],
@@ -20,7 +21,7 @@ export default {
       dd: false,
     };
   },
-  components: { dwcklt },
+  components: { dwcklt, dwpt },
 };
 </script>
 
@@ -32,8 +33,21 @@ export default {
     <div class="grid content-center"><button>Home</button></div>
     <div class="grid content-center"><button>About</button></div>
     <div class="grid content-center"><button>Work</button></div>
-    <div class="grid content-center">
-      <button>Resume</button>
+    <div class="grid content-center static" @click="resume">
+      <div>
+        <button>Resume</button>
+      </div>
+      <div
+        class="absolute top-10 bg-[#795548] text-white italic p-[20px] flex justify-center flex-col"
+        v-if="this.dd === true"
+      >
+        <div class="flex justify-center">
+          <div>
+            <dwpt class="w-4 h-4" />
+          </div>
+        </div>
+        <div>Download resume</div>
+      </div>
     </div>
   </div>
 
@@ -41,7 +55,7 @@ export default {
     <div class="grid content-center"><button>Home</button></div>
     <div class="grid content-center"><button>About</button></div>
     <div class="grid content-center"><button>Work</button></div>
-    <div class="grid content-center static" @click="resume('ss')">
+    <div class="grid content-center static" @click="resume">
       <div>
         <button>Resume</button>
       </div>
